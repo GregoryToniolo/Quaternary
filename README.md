@@ -15,6 +15,11 @@ A quaternary (Base 4) logic extension of the standard boolean type in C
 - true
 - third
 - fourth
+
+##Dependencies
+
+- No external libraries or dependencies required
+
 ## Installation
 
 Clone github repo (default install location is /usr/include)
