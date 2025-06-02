@@ -35,7 +35,7 @@ typedef enum
 //NOR = SQI(Maximum(A, B))
 
 //performs AND operation (see table above)
-quaternary AND(quaternary &a, quaternary &b)
+quaternary AND(quaternary a, quaternary b)
 {
     if (a < b)
     {
@@ -48,7 +48,7 @@ quaternary AND(quaternary &a, quaternary &b)
 }
 
 //performs OR operation (see table above)
-quaternary OR(quaternary &a, quaternary &b)
+quaternary OR(quaternary a, quaternary b)
 {
     if (a > b)
     {
@@ -61,7 +61,7 @@ quaternary OR(quaternary &a, quaternary &b)
 }
 
 //performs NAND operation (see table above)
-quaternary NAND(quaternary &a, quaternary &b)
+quaternary NAND(quaternary a, quaternary b)
 {
     if (a < b)
     {
@@ -108,7 +108,7 @@ quaternary NAND(quaternary &a, quaternary &b)
 }
 
 //performs NOR operation (see table above)
-quaternary NOR(quaternary &a, quaternary &b)
+quaternary NOR(quaternary a, quaternary b)
 {
     if (a > b)
     {
@@ -166,7 +166,7 @@ quaternary NOR(quaternary &a, quaternary &b)
 
 
 //performs SQI inversion (see table above)
-quaternary SQI_invert(quaternary &a)
+quaternary SQI_invert(quaternary a)
 {
     switch (a)
     {
@@ -189,7 +189,7 @@ quaternary SQI_invert(quaternary &a)
 }
 
 //performs IQI inversion (see table above)
-quaternary IQI_invert(quaternary &a)
+quaternary IQI_invert(quaternary a)
 {
     if (a == true || a == false)
     {
@@ -202,7 +202,7 @@ quaternary IQI_invert(quaternary &a)
 }
 
 //performs NQI inversion (see table above)
-quaternary NQI_invert(quaternary &a)
+quaternary NQI_invert(quaternary a)
 {
     if (a == false)
     {
@@ -215,7 +215,7 @@ quaternary NQI_invert(quaternary &a)
 }
 
 //performs PQI inversion (see table above)
-quaternary PQI_invert(quaternary &a)
+quaternary PQI_invert(quaternary a)
 {
     if (a == fourth)
     {
