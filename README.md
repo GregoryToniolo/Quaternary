@@ -16,7 +16,7 @@ A quaternary (Base 4) logic extension of the standard boolean type in C
 - third
 - fourth
 
-##Dependencies
+## Dependencies
 
 - No external libraries or dependencies required
 
