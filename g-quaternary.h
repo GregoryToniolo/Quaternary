@@ -1,8 +1,7 @@
 //quaternary logic library
 typedef enum
 {
-    //binary representations of numbers 0 through 3
-    false = 0b00, true = 0b01, third = 0b10, fourth = 0b11
+    false = 0, true = 1, third = 2, fourth = 3
 }quaternary;
 
 //binary operations
