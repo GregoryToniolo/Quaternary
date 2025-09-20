@@ -1,20 +1,20 @@
 
 # Generic Quaternary Logic Library
 
-A quaternary (Base 4) logic extension of the standard boolean type in C
+A quaternary (Base 4) logic extension of the standard boolean type in C/C++
 
 ## Features
 
 - SQI, NQI, PQI and IQI quaternary inversion functions
 
-- AND, OR, NAND and NOR quaternary logic gates
+- AND, OR, XOR, NAND, NOR and XNOR quaternary logic gates
 
 ## Logical States
 
-- false
-- true
-- third
-- fourth
+- Low
+- Mid
+- High
+- Max
 
 ## Dependencies
 
